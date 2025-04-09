@@ -1,0 +1,39 @@
+details.txt
+  
+101, John DOE, Developer, IT, 75000, 2020-01-15
+102, Jane smith, MANAGER, HR, 90000, 2018-07-10
+103, Alice Johnson, Analyst, finance, 68000, 2021-05-20
+104, Robert Brown, Senior Developer, IT Operations, 85000, 2019-11-25
+105, Emily DAVIS, manager, Sales, 85000, 2017-03-14
+106, Michael Wilson, Junior Analyst, FINANCE, 72000, 2020-09-10
+107, Sarah White, Software Developer, it, 78000, 2022-02-01
+108, David lee, MANAGER, IT, 95000, 2015-08-05
+109, Linda Taylor, Intern, hr, 40000, 2023-06-18
+110, kevin moore, DEVELOPER, IT Support, 77000, 2018-12-21
+
+
+  address.txt
+  
+101, John DOE, 123 Main St, Springfield, IL, 62701
+102, Jane smith, 456 Elm St, Boston, MA, 02118
+103, Alice Johnson, 789 Oak St, Seattle, WA, 98101
+104, Robert Brown, 321 Pine St, Denver, CO, 80202
+105, Emily DAVIS, 654 Maple St, Austin, TX, 73301
+106, Michael Wilson, 987 Cedar St, Miami, FL, 33101
+107, Sarah White, 135 Birch St, San Diego, CA, 92101
+108, David lee, 246 Ash St, Chicago, IL, 60601
+109, Linda Taylor, 357 Walnut St, Dallas, TX, 75201
+110, kevin moore, 468 Chestnut St, Phoenix, AZ, 85001
+  
+contacts.txt
+  
+101, John DOE, +1-217-555-1234
+102, Jane smith, +1-617-555-4567
+103, Alice Johnson, +1-206-555-7890
+104, Robert Brown, +1-303-555-3210
+105, Emily DAVIS, +1-512-555-6543
+106, Michael Wilson, +1-305-555-9876
+107, Sarah White, +1-619-555-1357
+108, David lee, +1-312-555-2468
+109, Linda Taylor, +1-214-555-3579
+110, kevin moore, +1-602-555-4681
