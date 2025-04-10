@@ -138,4 +138,22 @@ helloworld.txt
 Hello Hello Hello Hello
 Hello World
 
+samplelog.txt
+
+03/22 08:53:38 TRACE router_forward_getOI:source address 9.67.116.98
+03/22 08:53:38 TRACE router_forward_getOI:out inf 9.67.116.98
+03/22 08:53:38 INFO rsvp_flow_stateMachine:state RESVED, event T1OUT
+03/22 08:53:38 TRACE rsvp_action_nHop:constructing a PATH
+03/22 08:53:38 TRACE flow_timer_start:started T1
+03/22 08:53:38 TRACE rsvp_flow_stateMachine:reentering state RESVED
+03/22 08:53:38 TRACE mailslot_send:sending to (9.67.116.99:0)
+03/22 08:53:52 TRACE rsvp_event:received event from RAW-IP on interface 9.67.116.98
+03/22 08:53:52 TRACE rsvp_explode_packet:v=1,flg=0,type=2,cksm=54875,ttl=255,rsv=0,len=84
+03/22 08:53:52 INFO rsvp_parse_objects:obj RSVP_HOP hop=9.67.116.99, lih=0
+03/22 08:53:52 TRACE rsvp_event_mapSession:Session=9.67.116.99:1047:6 exists
+03/22 08:53:52 INFO rsvp_flow_stateMachine:state RESVED, event RESV
+03/22 08:53:52 TRACE flow_timer_stop:Stop T4
+03/22 08:53:52 TRACE flow_timer_start:Start T4
+03/22 08:53:52 TRACE rsvp_flow_stateMachine:reentering state RESVED
+03/22 08:53:52 ERROR rsvp_flow_stateMachine:Error occurred while processing state transition
 
