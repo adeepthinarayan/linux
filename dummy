@@ -157,3 +157,72 @@ samplelog.txt
 03/22 08:53:52 TRACE rsvp_flow_stateMachine:reentering state RESVED
 03/22 08:53:52 ERROR rsvp_flow_stateMachine:Error occurred while processing state transition
 
+
+
+
+
+
+
+awk -F':' '
+BEGIN {
+    print "List of Usernames:"
+}
+{
+    print $1
+}
+END {
+    print "End of Usernames list."
+}
+' /etc/passwd
+
+
+
+
+
+====================
+
+
+
+awk -F':' '
+BEGIN {
+    print "=============================="
+    print "     List of Usernames      "
+    print "=============================="
+    print ""
+}
+{
+    print "Username: " $1
+}
+END {
+    print ""
+    print "=============================="
+    print "    End of Usernames list    "
+    print "=============================="
+}
+' /etc/passwd
+
+
+
+======================
+
+
+awk -F':' '
+BEGIN {
+    print "=============================="
+    print "     List of Usernames      "
+    print "=============================="
+    print ""
+}
+{
+    printf "Username: %-20s | UserID: %-10s\n", $1, $3
+}
+END {
+    print ""
+    print "=============================="
+    print "    End of Usernames list    "
+    print "=============================="
+}
+' /etc/passwd
+
+
+
